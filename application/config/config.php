@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://migration.dev:8090/pdfgenerator/';
+$config['base_url'] = 'http://142.4.209.24/pdfgenerator/';
 
 /*
 |--------------------------------------------------------------------------

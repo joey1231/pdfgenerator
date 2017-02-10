@@ -92,4 +92,4 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 */
 // "/Users/scalaberch/www/bugtick/client/PDFGenerator/resource/docs/"
 //defined('ACTUAL_FILE_PREFIX_SAVING') OR define('ACTUAL_FILE_PREFIX_SAVING', "/Users/scalaberch/www/bugtick/client/PDFGenerator/resource/docs/");
-defined('ACTUAL_FILE_PREFIX_SAVING') OR define('ACTUAL_FILE_PREFIX_SAVING', "/home4/eliteins/public_html/pdfgenerator/resource/docs/");
+defined('ACTUAL_FILE_PREFIX_SAVING') OR define('ACTUAL_FILE_PREFIX_SAVING', "/var/www/dfgenerator/resource/docs/");

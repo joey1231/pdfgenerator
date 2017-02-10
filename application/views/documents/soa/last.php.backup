@@ -1,0 +1,162 @@
+
+<style type="text/css">
+body{font-family:arial;margin:auto;display:block;position:relative}label{display:block}.inline{display:inline !important}
+.pagebreak{margin-top:40px;margin-bottom:40px}.pull-left{float:left}.pull-right{float:right}.width-25{width:25%}.width-50{width:45%}
+.width-40{width:40%}.width-60{width:60%}.width-30{width:30%}.width-70{width:70%}.width-100{width:100%}.clearfix{clear:both}
+.text-center{text-align:center}.text-left{text-align:left}.text-right{text-align:right}.text-uppercase{text-transform:uppercase}
+.red{color:#347Ab8}.pale{opacity:.5}label{color:#777;border-bottom:1px solid #ddd;text-transform:uppercase;font-size:.7em;margin-bottom:10px;margin-left:10px;margin-right:10px}
+.value{display:block;margin-top:5px;padding:10px;padding-top:5px;margin-top:0px;font-size:.9em;margin-bottom:20px;margin-right:10px}
+.normal-weight{font-weight:normal}.text-center.normal-weight.red{text-align:left}tr th{text-align:left;padding:10px}
+tr th label{display:block;padding:0px;border:none;margin-left:0;margin-bottom:0}.table .value{margin-bottom:0}
+.table.bordered td,.table.bordered th{border:1px solid #ddd}
+</style>
+
+<style>
+    .buld { font-weight:bold; }
+    .sectionn-title {
+        padding:0%; margin:0%; color:#205478; letter-spacing:3px;
+        font-weight:300; text-transform: uppercase;
+        border-bottom:1px solid #205478;
+    }
+    .tbl-title{
+      padding:5px 0px 5px 0px;
+    }
+    .tbl-title td{
+      color:#999; font-size:100%;
+      text-transform: uppercase;
+    }
+    .tbl-value {
+        border:1px solid #999;
+        padding:5px; font-size:110%;
+    }
+    .ff-table th {
+        background-color:#205478;
+        color: #fff; text-transform: uppercase;
+        letter-spacing: 1px; font-size:100%;
+    }
+
+    .ff-tbl-alt td {
+        background-color:#eee;
+    }
+</style>
+
+
+<p></p>
+<?php $ACC = 0; ?>
+<h2 class="sectionn-title">SECTION 5 - ACC ACKNOWLEDGEMENT</h2>
+<p></p>
+<p style="font-size:110%">You have decided to apply for CPX, which means you have an agreed value of 100% however this may reduce your accidental death entitlements, you further acknowledge that should you have an accident, you may be entitled to a lower payout than what you had previously.</p>
+<p></p>
+<h3>At a glance</h3>
+<ul style="font-size:110%">
+  <li>ACC CoverPlus Extra is available to all self-employed and non-PAYE shareholder-employees who work 30 hours or more per week – and to part-timers whose earnings exceed the ACC CoverPlus Extra minimum (which changes each year).</li>
+  <li>You negotiate your level of lost earnings cover.</li>
+  <li>You receive 100% of this lost earnings cover (less tax) if you can’t work because of an injury, starting one week after your injury. This stays the same even if your business continues to generate income during your time off work or you return to work part-time.</li>
+  <li>You can opt for Lower Levels of Weekly Compensation (LLWC) which offers a lower levy rate because weekly compensation will reduce if your business continues to generate income during your time off work or you return to work part-time.</li>
+  <li>You don’t have to prove loss of earnings when you make a claim.</li>
+  <li>You have access to medical and work-related help as part of your ACC CoverPlus Extra policy.</li>
+</ul>
+<p></p>
+<h3>What does ACC CoverPlus Extra cover?</h3>
+<p style="font-size:110%">With ACC CoverPlus Extra, you will receive all the normal entitlements of ACC CoverPlus. Some or all of
+the following benefits may be available depending on the nature of your injury and needs.
+</p>
+<h4>Help for partial disabilities</h4>
+<ul style="font-size:110%">
+  <li>If you can’t work full time or continue receiving business earnings because of your injury, you still qualify for 100% of your agreed cover (less tax).</li>
+  <li>If your injury has a serious long-term effect through a permanent impairment, lump-sum payments may be available.</li>
+</ul>
+<h4>Treatment</h4>
+<ul style="font-size:110%">
+  <li>ACC can contribute to a wide range of medical and related costs, including those for doctors’ visits, treatment by various other health professionals, surgery, X-rays and prescriptions.</li>
+</ul>
+<h4>Returning to work</h4>
+<ul style="font-size:110%">
+  <li>As part of our commitment to helping you to recover and get back to work as quickly as possible, we will help you to return to your job – and if you can’t return to your old job because of injury, we help you to prepare for finding a new one.</li>
+</ul>
+<h4>Personal help</h4>
+<ul style="font-size:110%">
+  <li>If you need help managing at home after an injury, we can arrange help with things like housework, personal care, transport, aids, modifications and childcare.</li>
+  <li>If you have to travel for assessments, ACC can help with transport and accommodation costs. This may also include assistance for your support people.</li>
+</ul>
+<h4>In case of death</h4>
+<ul style="font-size:110%">
+  <li>ACC has a number of grants available in case you or one of your family dies as a result of injury. These include funeral grants, survivors’ grants, help with childcare and weekly compensation.</li>
+</ul>
+<p style="font-size:120%">For more details, visit <i>www.acc.co.nz/claimsupport</i></p>
+
+<h3>I acknowledge that:</h3>
+<table class="table width-100" style="font-size:110%">
+  <tr>
+      <td width="4%">
+          <?php if ($data['acc']['q1'] == "true"): ?>
+          <img src="<?php echo base_url(); ?>resource/img/ch_c.png" >
+          <?php else: ?>
+          <img src="<?php echo base_url(); ?>resource/img/ch_u.png" >
+          <?php endif; ?>
+      </td>
+      <td style="width:96%">You have notified me that you are currently on ACC Cover Plus/ACC Workplace Cover</td>
+  </tr>
+  <tr>
+      <td width="4%">
+          <?php if ($data['acc']['q2'] == "true"): ?>
+          <img src="<?php echo base_url(); ?>resource/img/ch_c.png" >
+          <?php else: ?>
+          <img src="<?php echo base_url(); ?>resource/img/ch_u.png" >
+          <?php endif; ?>
+      </td>
+      <td style="width:96%">You have advised me that you want to apply for Cover Plus Extra and understand the advantages and disadvantages of such an action.</td>
+  </tr>
+  <tr>
+    <td width="4%">
+        <?php if ($data['acc']['q3'] == "true"): ?>
+        <img src="<?php echo base_url(); ?>resource/img/ch_c.png" >
+        <?php else: ?>
+        <img src="<?php echo base_url(); ?>resource/img/ch_u.png" >
+        <?php endif; ?>
+    </td>
+    <td style="width:96%">You have agreed that you will also put in place additional cover in terms of Mortgage & Rent Cover, and/or Income Protection and/or Trauma Cover to cover the risk to you and the business.</td>
+  </tr>
+  <tr>
+    <td width="4%">
+        <?php if ($data['acc']['q4'] == "true"): ?>
+        <img src="<?php echo base_url(); ?>resource/img/ch_c.png" >
+        <?php else: ?>
+        <img src="<?php echo base_url(); ?>resource/img/ch_u.png" >
+        <?php endif; ?>
+    </td>
+    <td style="width:96%">You have instructed me to put in place the following amount of cover on the applied for ACC Coverplus Extra product</td>
+  </tr>
+</table>
+<p></p>
+<table class="table ff-table" cellpadding="5" style="font-size:115%">
+  <tr class='head-table'>
+    <th style="padding:5px" colspan="3" width="70%">Amount of Cover that you nominate on cover plus extra:</th>
+    <th style="background-color:white;color:black" width="30%"><?php
+      $amount = $data['acc']['amount'];
+      $applicable = $data['acc']['applicable'];
+
+      if ($applicable == "true"){
+        echo "(Not applicable)";
+      } else {
+        if ($amount == null){ $amount = 0; } else { $amount = floatval($amount); }
+        echo "$ ".moneyFormatter("%n", $amount);
+      }
+    ?></th>
+  </tr>
+</table>
+
+
+<!-- DECISION TO PROCEED -->
+<h2 class="sectionn-title">SECTION 6 - AUTHORITY TO PROCEED</h2>
+<p></p>
+<div style="font-size: 110%;">The following has also taken place:
+<ul>
+  <li>I have given you a RFA Disclosure Statement &amp; a Scope of Engagement</li>
+  <li>We have talked about your personal circumstances and insurance needs in a way you understand and have answered all your questions;</li>
+  <li>We have discussed the benefits and limitations to this insurance product.</li>
+</ul>
+If I haven’t done all these things, DON’T SIGN THE AUTHORITY TO PROCEED.<br /><br />
+You should also read the documents I have given to you and check that the personal information is accurate and ask me any questions if you have any. By signing the Authority to Proceed, you agree to purchase the product/s I have recommended or that you have selected in this Statement of Advice.<br /><br />
+You also warrant that you have provided us with accurate and correct information to the best of your knowledge. If the insurer underwrites your policy application and discover information that you have provided is not accurate or correct, this may affect, or result in the cancellation of, policy coverage.  You further agree to indemnify and release us from any responsibilty in this situation
+</div>
